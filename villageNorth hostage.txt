@@ -1,0 +1,73 @@
+villageNorth hostage
+|21:35:54:598|info: ShowPosition
+|21:35:54:598|info: Current large block:2636505666
+|21:35:54:598|info: Current small block index: x:136,y:138
+|21:35:54:598|info: blockIndexX:136,blockIndexY:138
+|21:35:54:598|info: Quest area: field, in: activeArea=false loadArea=true invokeArea=false
+|21:35:54:599|info: positions:
+{pos={507.183,329.359,700.244},rotY=156.616,},
+|21:35:54:599|info: positionsxml:
+<value x="507.183" y="329.359" z="700.244" w="0" />
+
+commWest hostage
+|21:42:43:909|info: ShowPosition
+|21:42:43:909|info: Current large block:2636505666
+|21:42:43:909|info: Current small block index: x:140,y:138
+|21:42:43:909|info: blockIndexX:140,blockIndexY:138
+|21:42:43:909|info: Quest area: ruins, in: activeArea=false loadArea=true invokeArea=false
+|21:42:43:910|info: positions:
+{pos={980.333,347.591,661.208},rotY=-95.210,},
+|21:42:43:910|info: positionsxml:
+<value x="980.333" y="347.591" z="661.208" w="0" />
+
+villageEast hostage
+|22:13:19:015|info: ShowPosition
+|22:13:19:015|info: Current large block:afgh_village
+|22:13:19:015|info: Current small block index: x:140,y:142
+|22:13:19:015|info: blockIndexX:140,blockIndexY:142
+|22:13:19:015|info: Quest area: ruins, in: activeArea=false loadArea=true invokeArea=false
+|22:13:19:016|info: positions:
+{pos={941.592,318.182,1277.363},rotY=177.766,},
+|22:13:19:016|info: positionsxml:
+<value x="941.592" y="318.182" z="1277.363" w="0" />
+
+villageEast hostagefar
+hostage
+{pos={830.756,325.478,1331.887},rotY=140.843,},
+<value x="830.756" y="325.478" z="1331.887" w="0" />
+sol0_d
+{pos={830.723,325.476,1322.984},rotY=-129.990,},
+{pos={832.537,325.463,1322.257},rotY=149.580,},
+{pos={842.284,325.318,1332.899},rotY=127.600,},
+|22:18:50:000|info: positionsxml:
+<value x="830.723" y="325.476" z="1322.984" w="0" />
+<value x="832.537" y="325.463" z="1322.257" w="0" />
+<value x="842.284" y="325.318" z="1332.899" w="0" />
+sol1_d
+{pos={845.196,325.395,1336.610},rotY=176.668,},
+{pos={852.784,325.468,1347.648},rotY=87.674,},
+|22:21:06:511|info: positionsxml:
+<value x="845.196" y="325.395" z="1336.610" w="0" />
+<value x="852.784" y="325.468" z="1347.648" w="0" />
+sol0_h
+{pos={842.135,325.463,1336.916},rotY=-46.479,},
+|22:22:19:151|info: positionsxml:
+<value x="842.135" y="325.463" z="1336.916" w="0" />
+sol1_h
+{pos={837.669,325.476,1338.312},rotY=131.724,},
+|22:22:19:151|info: positionsxml:
+<value x="837.669" y="325.476" z="1338.312" w="0" />
+sol0_c
+{pos={834.709,325.491,1332.941},rotY=137.309,},
+{pos={834.598,325.491,1333.360},rotY=46.251,},
+{pos={834.093,325.478,1332.684},rotY=-135.276,},
+|22:23:41:148|info: positionsxml:
+<value x="834.709" y="325.491" z="1332.941" w="0" />
+<value x="834.598" y="325.491" z="1333.360" w="0" />
+<value x="834.093" y="325.478" z="1332.684" w="0" />
+sol1_c
+{pos={832.296,325.362,1321.378},rotY=114.711,},
+{pos={840.170,325.327,1330.215},rotY=127.330,},
+|22:24:41:043|info: positionsxml:
+<value x="832.296" y="325.362" z="1321.378" w="0" />
+<value x="840.170" y="325.327" z="1330.215" w="0" />
