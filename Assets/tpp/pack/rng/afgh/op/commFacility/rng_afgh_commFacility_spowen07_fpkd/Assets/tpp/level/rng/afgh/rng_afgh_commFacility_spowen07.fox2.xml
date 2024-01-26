@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0" originalVersion="Sat Dec 09 03:24:13 UTC+07:00 2023">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="BoxShape" super="" version="0" />
+    <class name="TransformEntity" super="" version="0" />
+    <class name="GeoModuleCondition" super="" version="0" />
+    <class name="TppTrapCheckIsHostageCallbackDataElement" super="" version="0" />
+    <class name="TppTrapExecLostHostageCallbackDataElement" super="" version="0" />
+    <class name="GeoTrap" super="" version="2" />
+    <class name="GameObjectLocator" super="" version="2" />
+    <class name="TppHostage2LocatorParameter" super="" version="0" />
+    <class name="TppMarker2LocatorParameter" super="" version="0" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x072EEB00" unknown1="232" unknown2="112769">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="11">
+          <value key="shape_0000">0x05F095B0</value>
+          <value key="condition_0000">0x05F09770</value>
+          <value key="trap_HostatelostTarget0000">0x05F09A10</value>
+          <value key="hos_spowen07_0000">0x05F0BC30</value>
+          <value key="marker_commFacility_spowen07_area">0x06A8D3D0</value>
+          <value key="marker_commFacility_spowen07_target">0x09745BF0</value>
+          <value key="TexturePackLoadConditioner0000">0x07042930</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="BoxShape" classVersion="0" addr="0x05F095B0" unknown1="256" unknown2="113153">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>shape_0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x072EEB00</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F09A10</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x05F09620</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x05F09620" unknown1="80" unknown2="113156">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F095B0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GeoModuleCondition" classVersion="0" addr="0x05F09770" unknown1="352" unknown2="113162">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>condition_0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x072EEB00</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F09A10</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x05F097E0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="trapCategory" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+        <property name="trapPriority" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="enable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="isOnce" type="bool" container="StaticArray" arraySize="1">
+          <value>false</value>
+        </property>
+        <property name="isAndCheck" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+        <property name="checkFuncNames" type="String" container="DynamicArray" arraySize="1">
+          <value>IsHostage</value>
+        </property>
+        <property name="execFuncNames" type="String" container="DynamicArray" arraySize="1">
+          <value>LostHostage</value>
+        </property>
+        <property name="checkCallbackDataElements" type="EntityPtr" container="DynamicArray" arraySize="1">
+          <value>0x05F09930</value>
+        </property>
+        <property name="execCallbackDataElements" type="EntityPtr" container="DynamicArray" arraySize="1">
+          <value>0x05F099A0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x05F097E0" unknown1="80" unknown2="113165">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F09770</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="-0.1" y="-0.1" z="-0.1" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppTrapCheckIsHostageCallbackDataElement" classVersion="0" addr="0x05F09930" unknown1="32" unknown2="113171">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F09770</value>
+        </property>
+        <property name="funcName" type="String" container="StaticArray" arraySize="1">
+          <value>IsHostage</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppTrapExecLostHostageCallbackDataElement" classVersion="0" addr="0x05F099A0" unknown1="36" unknown2="113173">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F09770</value>
+        </property>
+        <property name="funcName" type="String" container="StaticArray" arraySize="1">
+          <value>LostHostage</value>
+        </property>
+        <property name="hostageName" type="String" container="StaticArray" arraySize="1">
+          <value>hos_spowen07_0000</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GeoTrap" classVersion="2" addr="0x05F09A10" unknown1="288" unknown2="113175">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>trap_HostatelostTarget0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x072EEB00</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x05F09A80</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" arraySize="2">
+          <value>0x05F09770</value>
+          <value>0x05F095B0</value>
+        </property>
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="conditionArray" type="EntityLink" container="DynamicArray" arraySize="1">
+          <value packagePath="" archivePath="" nameInArchive="condition_0000">0x05F09770</value>
+        </property>
+        <property name="enable" type="bool" container="StaticArray" arraySize="1">
+          <value>true</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x05F09A80" unknown1="80" unknown2="113181">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F09A10</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="5.221099" y="5.598987" z="6.078554" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1478.52466" y="358.8349" z="482.557434" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x05F0BC30" unknown1="272" unknown2="113362">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>hos_spowen07_0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x072EEB00</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x05F0BCA0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppHostage2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x05F0BDF0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x05F0BCA0" unknown1="80" unknown2="113365">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F0BC30</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="-0.037731" y="-0.229742" z="0.012624" w="0.972438" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1479.17542" y="358.099121" z="483.6934" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppHostage2LocatorParameter" classVersion="0" addr="0x05F0BDF0" unknown1="32" unknown2="113371">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x05F0BC30</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x06A8D3D0" unknown1="272" unknown2="1900838">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>marker_commFacility_spowen07_area</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x072EEB00</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x06A8D440</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppMarker2LocatorSystem</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x06A8D590</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x06A8D440" unknown1="80" unknown2="1900841">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x06A8D3D0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="1.121039E-44" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1481.748" y="359.7492" z="467.3845" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppMarker2LocatorParameter" classVersion="0" addr="0x06A8D590" unknown1="36" unknown2="1900847">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x06A8D3D0</value>
+        </property>
+        <property name="markerType" type="String" container="StaticArray" arraySize="1">
+          <value>TYPE_MISSION_KEY_PLACE</value>
+        </property>
+        <property name="markerId" type="String" container="StaticArray" arraySize="1">
+          <value>marker_commFacility_spowen07_area</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x09745BF0" unknown1="272" unknown2="750328499">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>marker_commFacility_spowen07_target</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x072EEB00</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x09745C60</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppMarker2LocatorSystem</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x09745D40</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x09745C60" unknown1="80" unknown2="750328502">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x09745BF0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="0" z="0" w="1" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1478.52466" y="358.8349" z="482.557434" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppMarker2LocatorParameter" classVersion="0" addr="0x09745D40" unknown1="36" unknown2="750328506">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x09745BF0</value>
+        </property>
+        <property name="markerType" type="String" container="StaticArray" arraySize="1">
+          <value>TYPE_MISSION_KEY_PLACE</value>
+        </property>
+        <property name="markerId" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x07042930" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x072EEB00</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

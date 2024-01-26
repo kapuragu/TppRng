@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<routeSet>
+  <route id="rts_commFacility_spowen07_d_0000">
+    <node x="1479.115" y="358.5074" z="484.9845">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1798" dir="-32404">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rts_commFacility_spowen07_n_0000">
+    <node x="1479.115" y="358.5074" z="484.9845">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="7192" dir="21">
+          <param0 type="String">4113090604</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rts_commFacility_spowen07_c_0000">
+    <node x="1478.772" y="358.2252" z="482.4356">
+      <event type="CautionWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionSquatIdleAim" loop="False" time="1318" dir="-27448">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="CautionStandIdleAim" loop="False" time="1438" dir="-27140">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+</routeSet>

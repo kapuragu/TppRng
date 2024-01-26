@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<routeSet>
+  <route id="rts_village_spowen09_d_0000">
+    <node x="579.9313" y="320.1732" z="1186.411">
+      <event type="RelaxedWalkAct">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="True" time="59" dir="1122">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rts_village_spowen09_n_0000">
+    <node x="579.9313" y="320.1732" z="1186.411">
+      <event type="RelaxedWalkAct">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="True" time="59" dir="1122">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rts_village_spowen09_c_0000">
+    <node x="579.9313" y="320.1732" z="1186.411">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdleSearch" loop="True" time="29" dir="1122">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+</routeSet>

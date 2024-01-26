@@ -1,0 +1,85 @@
+en00
+・CIA-related personnel (Common between Afghanistan and Africa. Has Intel skills.)
+afgh:
+You're here for that
+filthy American dog?...
+[p]
+Urgh... we're keeping him here.
+mafr:
+That spook we caught...
+he's being held here.
+[p]
+He didn't see that coming, huh?
+
+en01
+・Researcher (For use in Afghanistan. Born in the West, he defected to the Soviet Union, but was imprisoned. Has R&D skills.)
+...That damn refusenik scientist?
+[p]
+His new "research lab"... is here...
+
+en02
+・Researcher (For use in Africa. Has R&D skills.)
+...So our new catch was 
+worth more than we thought.
+[p]
+We keep him... here.
+
+en03
+・Mercenary (For use in Afghanistan. Has Combat skills.)
+The irregular we captured...
+He's being held here. 
+[p]
+Is he the lapdog... you're looking for?
+
+en04
+・Mercenary (For use in Africa. Has high combat abilities, but was being held captive by an enemy PF. Has Combat skills.)
+Hah... you came just in time.
+[p]
+The old man's... boring us 
+with his war stories.
+
+en05
+・Resource developer (For use in Afghanistan. Has Resource Development skills.)
+This is where we keep the technician...
+[p]
+...Command promised us an 
+Order of the Red Banner for him!
+
+en06
+・Resource developer (For use in Africa. Had come to Africa to work on resource development. Has Resource Development skills.)
+That gearhead could cost 
+a fortune... Dammit... 
+[p]
+Alright... you win.
+This is where he is.
+
+en07
+・CIA-related (Has Intel skills.) 
+AFGH
+The girl? What do you want with her?!
+[p]
+I-I mean, she's... The American spy... 
+She's being held here.
+MAFR
+...You're here for the girl? Why?
+[p]
+Argh... W-we keep the prisoner here.
+
+en08
+・Doctor (Came to help the locals, but got captured. Has Medical skills.)
+AFGH
+You come here for your field medic,
+and not for your lapdogs?
+[p]
+Fine... She's being held here.
+MAFR
+This doc, we were hoping to convince her 
+to treat our injuries for a discount...
+[p]
+...Maybe her PF pays her more.
+
+en09
+・NGO member who came to give aid to local women (Has Support skills.)
+AFGH
+
+MAFR

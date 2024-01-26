@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<spch>
+  <label labelName="speech_carry_spowen07_00" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308084995" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_01" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308084992" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_02" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308084993" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_03" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308084998" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_04" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308084999" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_05" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308084996" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_06" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308084997" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_07" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308085002" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_08" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1308085003" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen07_09" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_a_fml" sbpVoiceClipId="1324862709" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+</spch>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<spch>
+  <label labelName="speech_carry_spowen09_00" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537372" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_01" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537375" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_02" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537374" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_03" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537369" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_04" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537368" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_05" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537371" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_06" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537370" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_07" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537365" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_08" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="244537364" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_09" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="227759786" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_10" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="227759787" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+  <label labelName="speech_carry_spowen09_11" sbpListId="1417479259">
+    <voiceClip voiceType="hostage_c_fml" sbpVoiceClipId="227759784" animationAct="0" beforePause="0" afterPause="0" />
+  </label>
+</spch>

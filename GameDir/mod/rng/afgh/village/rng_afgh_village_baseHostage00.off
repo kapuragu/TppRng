@@ -1,0 +1,89 @@
+--village_baseHostage00.lua
+local this={}
+
+local areaMarkerName="marker_village_baseHostage00"
+local targetName="hos_village_0000"
+local targetCp="afgh_village_cp"
+local interName="enqt1000_1i1310" --That prisoner they took away... is here.
+
+this.name="village_baseHostage00"
+
+this.needDefault=true
+
+this.packs={
+    "/Assets/tpp/pack/rng/afgh/npc/rng_afgh_hostage2_psa.fpk",
+    "/Assets/tpp/pack/rng/afgh/npc/rng_afgh_hostage2_psb.fpk",
+    "/Assets/tpp/pack/rng/afgh/op/village/rng_afgh_village_baseHostage00.fpk",
+}
+
+this.targetList=targetName
+
+this.SetUpUniqueTable={
+    [targetName] = {
+        type = "hostage",
+        race = TppDefine.QUEST_RACE_TYPE.BROWN,
+        bodyId = TppDefine.QUEST_BODY_ID_LIST.AFGH_HOSTAGE_MALE,
+        langType = "pashto",
+    },
+}
+
+this.interInfo={
+    [targetName] = {
+        highCp = targetCp,
+        name = interName,
+        objective = targetName,
+    },
+}
+
+this.setUpSearchTarget={
+    {
+        gameObjectName = targetName,
+        gameObjectType = "TppHostage2",
+        messageName = targetName,
+        skeletonName = "SKL_004_HEAD",
+        objectives = { targetName },
+        interRemove = targetName,
+    },
+}
+
+local areaObjectiveName=this.name.."_"..areaMarkerName
+local targetObjectiveName=this.name.."_"..targetName
+local clearObjectiveName=this.name.."_clear"
+
+this.missionObjectiveDefine={
+    [areaObjectiveName] = {
+        gameObjectName = areaMarkerName,
+        visibleArea = 4,
+        randomRange = 0,
+        viewType = "all",
+        setNew = true,
+        langId = "target_type_rescue",
+    },
+	[targetObjectiveName] = {
+		gameObjectName = targetName,
+		goalType = "moving",
+        viewType = "map_and_world_only_icon",
+        setNew = true,
+        setImportant = true,
+        langId = "target_type_rescue",
+	},
+    [clearObjectiveName] = {
+        announceLog = "achieveAllObjectives",
+    },
+}
+
+this.missionObjectiveTree={
+    [clearObjectiveName] = {
+        [targetObjectiveName] = {
+            [areaObjectiveName] = {},
+        },
+    },
+}
+
+this.defaultObjectives=areaObjectiveName
+
+this.clearObjectiveName=clearObjectiveName
+
+this=RngBaseHostageModule.CreateInstance(this)
+
+return this

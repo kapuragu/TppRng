@@ -1,0 +1,286 @@
+local this={}
+
+this.locationName="MAFR"
+
+local StrCode32Table = Tpp.StrCode32Table
+local MAX_REALIZED_COUNT=EnemyFova.MAX_REALIZED_COUNT
+
+this.common={}
+
+this.common.packs={
+    TppDefine.MISSION_COMMON_PACK.MAFR_SCRIPT,
+    TppDefine.MISSION_COMMON_PACK.HELICOPTER,
+    "/Assets/tpp/pack/rng/mafr/rng_mafr.fpk",
+}
+
+this.common.Messages=function()
+    return StrCode32Table{
+        Trap = {
+            {
+                msg = "Enter",
+                sender = "Trap_Mist_ON",
+                func = function ()
+                    WeatherManager.RequestTag("factory_fog", 8 )
+                    TppWeather.RequestWeather( TppDefine.WEATHER.FOGGY, 10, { fogDensity=0.00, fogType=WeatherManager.FOG_TYPE_EERIE, } )
+                end				
+            },
+            {
+                msg = "Enter",
+                sender = "Trap_Mist2_ON",
+                func = function ()
+                    WeatherManager.RequestTag("factory_fog", 0 )
+                    TppWeather.RequestWeather( TppDefine.WEATHER.FOGGY, 5, { fogDensity=0.03, fogType=WeatherManager.FOG_TYPE_EERIE, } )
+                end				
+            },
+            {
+                msg = "Enter",
+                sender = "Trap_Mist_OFF",
+                func = function ()
+                    WeatherManager.RequestTag("default", 8 )
+                    TppWeather.CancelRequestWeather( TppDefine.WEATHER.CLOUDY, 5 )
+                end				
+            },
+            {
+                msg = "Enter",
+                sender = "Trap_MistTag",
+                func = function ()
+                    WeatherManager.RequestTag("factory_fog", 0 )
+                    TppWeather.RequestWeather( TppDefine.WEATHER.FOGGY, 5, { fogDensity=0.00, fogType=WeatherManager.FOG_TYPE_EERIE, } )
+                end,
+                option = { isExecMissionPrepare = true }
+            },
+        },
+    }
+end
+
+this.npc={
+    TppSoldier2={
+        packs=function(missionCode)
+            TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.MAFR_MISSION_AREA)
+            TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.MAFR_DECOY)
+            TppPackList.AddMissionPack"/Assets/tpp/pack/rng/mafr/npc/rng_mafr_soldier.fpk"
+            local soldierCount = RngConfig.GetSelectedSoldierCount()
+            local dynamicPacks = {
+                [RngDefine.MAX_SOLDIER_STATE_COUNT]={
+                    "/Assets/tpp/pack/rng/mafr/npc/rng_mafr_soldier_160.fpk",
+                },
+                [RngDefine.MAX_SOLDIER_STATE_COUNT_EXT]={
+                    "/Assets/tpp/pack/rng/mafr/npc/rng_mafr_soldier_360.fpk",
+                },
+            }
+            local packs = {}
+            local maxCounts={} for cnt, pcks in pairs(dynamicPacks) do InfUtil.InsertUniqueInList(maxCounts,cnt) end
+            packs = dynamicPacks[RngMission.GetHighestEntityCount(maxCounts, soldierCount)]
+            for i, fpk in ipairs(packs) do
+                TppPackList.AddMissionPack(fpk)
+            end
+        end,
+        fovaSetupFunc=function(locationCode,missionId)
+            local isMoreVariationMode=0
+            if TppSoldierFace.IsMoreVariationMode~=nil then
+                isMoreVariationMode=TppSoldierFace.IsMoreVariationMode()
+            end
+            local MAX_AFRICA_GRP=30
+            local solface_groupNumber=gvars.solface_groupNumber
+            local faceGroup=(solface_groupNumber%MAX_AFRICA_GRP)*2--NMC *2 because each group has _B and _W
+            local faceGroupType=TppEnemyFaceGroupId.AFRICA_GRP000_B+(faceGroup)
+            local faceGroupTable=TppEneFova.GetFaceGroupTableAtGroupType(faceGroupType)
+            TppSoldierFace.OverwriteMissionFovaData{face=faceGroupTable}
+            if isMoreVariationMode>0 then
+                for i=1,2 do
+                    solface_groupNumber=solface_groupNumber+2
+                    local faceGroup=(solface_groupNumber%MAX_AFRICA_GRP)*2
+                    local faceGroupType=TppEnemyFaceGroupId.AFRICA_GRP000_B+(faceGroup)
+                    local face=TppEneFova.GetFaceGroupTableAtGroupType(faceGroupType)
+                    TppSoldierFace.OverwriteMissionFovaData{face=face}
+                end
+            end
+            MAX_AFRICA_GRP=30
+            solface_groupNumber=gvars.solface_groupNumber
+            faceGroup=(solface_groupNumber%MAX_AFRICA_GRP)*2
+            faceGroupType=TppEnemyFaceGroupId.AFRICA_GRP000_W+(faceGroup)
+            local faceGroupTable=TppEneFova.GetFaceGroupTableAtGroupType(faceGroupType)
+            TppSoldierFace.OverwriteMissionFovaData{face=faceGroupTable}
+            if isMoreVariationMode>0 then
+                for i=1,2 do
+                    solface_groupNumber=solface_groupNumber+2
+                    local faceGroup=(solface_groupNumber%MAX_AFRICA_GRP)*2
+                    local faceGroupType=TppEnemyFaceGroupId.AFRICA_GRP000_W+(faceGroup)
+                    local face=TppEneFova.GetFaceGroupTableAtGroupType(faceGroupType)
+                    TppSoldierFace.OverwriteMissionFovaData{face=face}
+                end
+            end
+            TppSoldierFace.SetUseFaceIdListMode{enabled=true,staffCheck=true,raceSplit=60}
+            local bodies={
+                {TppEnemyBodyId.pfs0_rfl_v00_a,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_rfl_v01_a,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_mcg_v00_a,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_snp_v00_a,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_rdo_v00_a,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_rfl_v00_b,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_rfl_v01_b,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_mcg_v00_b,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_snp_v00_b,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_rdo_v00_b,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_rfl_v00_c,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_rfl_v01_c,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_mcg_v00_c,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_snp_v00_c,MAX_REALIZED_COUNT},
+                {TppEnemyBodyId.pfs0_rdo_v00_c,MAX_REALIZED_COUNT},
+            }
+            local armorTypeTable=TppEneFova.GetArmorTypeTable(missionId)
+            if armorTypeTable~=nil then
+                local numArmorTypes=#armorTypeTable
+                if numArmorTypes>0 then
+                    for i,armorType in ipairs(armorTypeTable)do
+                        if armorType==TppDefine.AFR_ARMOR.TYPE_ZRS then
+                            table.insert(bodies,{TppEnemyBodyId.pfa0_v00_a,MAX_REALIZED_COUNT})
+                        elseif armorType==TppDefine.AFR_ARMOR.TYPE_CFA then
+                            table.insert(bodies,{TppEnemyBodyId.pfa0_v00_b,MAX_REALIZED_COUNT})
+                        elseif armorType==TppDefine.AFR_ARMOR.TYPE_RC then
+                            table.insert(bodies,{TppEnemyBodyId.pfa0_v00_c,MAX_REALIZED_COUNT})
+                        else
+                            table.insert(bodies,{TppEnemyBodyId.pfa0_v00_a,MAX_REALIZED_COUNT})
+                        end
+                    end
+                end
+            end
+            TppSoldierFace.OverwriteMissionFovaData{body=bodies,additionalMode=true}
+        end,
+        telop={
+            enemyCombatantsLangList = { { "cast_cfa", "cast_rogue_coyote", "cast_zerorisk_security" } },--double table is important
+        },
+        cpType=CpType.TYPE_AFRIKAANS,
+    },
+    TppHostage2={
+        packs=function(missionCode)
+            TppPackList.AddMissionPack"/Assets/tpp/pack/rng/npc/rng_hostage.fpk"
+            TppPackList.AddMissionPack(TppDefine.MISSION_COMMON_PACK.MAFR_HOSTAGE)
+            local hostageCount = RngConfig.GetSelectedHostageCount()
+            local dynamicPacks = {
+                [RngDefine.MAX_HOSTAGE_STATE_COUNT]={
+                    "/Assets/tpp/pack/rng/mafr/npc/rng_mafr_hostage2_32.fpk",
+                }
+            }
+            local packs = {}
+            local maxCounts={} for cnt, pcks in pairs(dynamicPacks) do InfUtil.InsertUniqueInList(maxCounts,cnt) end
+            packs = dynamicPacks[RngMission.GetHighestEntityCount(maxCounts, hostageCount)]
+            for i, fpk in ipairs(packs) do
+                TppPackList.AddMissionPack(fpk)
+            end
+        end,
+        fovaSetupFunc=function(locationCode,missionId)
+            local prs5_main0_def_v00PartsAfrica="/Assets/tpp/parts/chara/prs/prs5_main0_def_v00.parts"
+            TppEneFova.SetHostageFaceTable(missionId)
+            --NMC all pfs0 main bodies
+            local bodies={
+                {TppEnemyBodyId.prs5_main0_v00,MAX_REALIZED_COUNT}
+            }
+            TppSoldierFace.OverwriteMissionFovaData{body=bodies,additionalMode=true}
+            TppSoldierFace.SetBodyFovaUserType{hostage={TppEnemyBodyId.prs5_main0_v00}}
+            TppHostage2.SetDefaultBodyFovaId{parts=prs5_main0_def_v00PartsAfrica,bodyId=TppEnemyBodyId.prs5_main0_v00}
+        end,
+    },
+    TppVehicle2={
+        packs=function(missionCode)
+            local packs = {}
+            local fovaFpk = "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_bd_west_fv2.fpk"
+            table.insert(packs,fovaFpk)
+            local typePacks={
+                [Vehicle.type.WESTERN_LIGHT_VEHICLE]={
+                    type={
+                        TppDefine.MISSION_COMMON_PACK.WEST_LV,
+                        "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_bd_west_lv.fpk",
+                    },
+                },
+                [Vehicle.type.WESTERN_TRUCK]={
+                    type={
+                        TppDefine.MISSION_COMMON_PACK.WEST_TRUCK,
+                        "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_bd_west_trc.fpk",
+                    },
+                    subType={
+                        [Vehicle.subType.WESTERN_TRUCK_CARGO_CISTERN]={
+                            TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_CISTERN,
+                            "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_at_west_trc_crg_cistern.fpk",
+                        },
+                        [Vehicle.subType.WESTERN_TRUCK_CARGO_CONTAINER]={
+                            TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_CONTAINER,
+                            "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_at_west_trc_crg_container.fpk",
+                        },
+                        [Vehicle.subType.WESTERN_TRUCK_CARGO_ITEM_BOX]={
+                            TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_ITEMBOX,
+                            "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_at_west_trc_crg_itembox.fpk",
+                        },
+                        [Vehicle.subType.WESTERN_TRUCK_HOOD]={
+                            TppDefine.MISSION_COMMON_PACK.WEST_TRUCK_HOOD,
+                            "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_at_west_trc_hood.fpk",
+                        },
+                    },
+                },
+                [Vehicle.type.WESTERN_WHEELED_ARMORED_VEHICLE]={
+                    type={
+                        TppDefine.MISSION_COMMON_PACK.WEST_WAV,
+                        "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_bd_west_wav.fpk",
+                    },
+                    subType={
+                        [Vehicle.subType.WESTERN_WHEELED_ARMORED_VEHICLE_TURRET_CANNON]={
+                            TppDefine.MISSION_COMMON_PACK.WEST_WAV_CANNON,
+                            "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_at_west_wav_cannon.fpk",
+                        },
+                        [Vehicle.subType.WESTERN_WHEELED_ARMORED_VEHICLE_TURRET_MACHINE_GUN]={
+                            TppDefine.MISSION_COMMON_PACK.WEST_WAV_MACHINE_GUN,
+                            "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_at_west_wav_machinegun.fpk",
+                        },
+                    },
+                },
+                [Vehicle.type.WESTERN_TRACKED_TANK]={
+                    type={
+                        TppDefine.MISSION_COMMON_PACK.WEST_TANK,
+                        "/Assets/tpp/pack/rng/mafr/vehicle/rng_veh_bd_west_tnk.fpk",
+                    },
+                }
+            }
+
+            local vehicleSettingsCollect=function(moduleTables)
+                if moduleTables.vehicleSettings then
+                    for index, vehicleSetting in ipairs(moduleTables.vehicleSettings) do
+                        if vehicleSetting.type then
+                            if typePacks[vehicleSetting.type] then
+                                if vehicleSetting.subType then
+                                    if typePacks[vehicleSetting.type].subType[vehicleSetting.subType] then
+                                        Rng.AppendArrayU(packs,typePacks[vehicleSetting.type].subType[vehicleSetting.subType])
+                                    end
+                                end
+                                Rng.AppendArrayU(packs,typePacks[vehicleSetting.type].type)
+                            end
+                        end
+                    end
+                end
+            end
+            RngConfig.OnSelectedModules(vehicleSettingsCollect)
+
+            local vehicleCount = RngConfig.GetSelectedVehicleCount()
+            local dynamicPacks = {
+                [RngDefine.MAX_VEHICLE_STATE_COUNT]={
+                    "/Assets/tpp/pack/rng/npc/rng_vehicle.fpk",
+                },
+            }
+            local maxCounts={} for cnt, pcks in pairs(dynamicPacks) do InfUtil.InsertUniqueInList(maxCounts,cnt) end
+            Rng.AppendArrayU(packs,dynamicPacks[RngMission.GetHighestEntityCount(maxCounts, vehicleCount)])
+            
+            for i, fpk in ipairs(packs) do
+                TppPackList.AddMissionPack(fpk)
+            end
+        end,
+    },
+    TppCritterBird={
+        packs=function(missionCode)
+            TppPackList.AddMissionPack"/Assets/tpp/pack/rng/npc/rng_raven.fpk"
+        end,
+        MissionPrepare=function()
+            TppRatBird.EnableBird( "TppCritterBird" )
+        end
+    },
+}
+
+return this

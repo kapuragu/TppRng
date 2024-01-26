@@ -1,0 +1,31 @@
+AFGH
+en00_spy Spy_CIA_Male ・CIA-related personnel 
+en01_dev_afgh Dev_Defect ・Researcher; Born in the West, he defected to the Soviet Union, but was imprisoned
+en03_cbt_afgh Cbt_Mercenary_Pak ・Mercenary; from Pakistan. I came to Afghanistan as a volunteer
+en05_bdv_afgh Bdv_Drilltech ・Resource developer; drilling technician; on Saudi Arabian oil interests
+en07_spy Spy_CIA_Female ・CIA-related
+en08_med Med_Doctor_Locals ・Doctor; Came to help the locals, but got captured
+en09_spt Spt_NGO_Women ・NGO member; who came to give aid to local women
+en10_med Med_Botanist ・Researcher; Came to conduct research on medicinal plants
+ps00_dev_afgh Dev_NukeEngineer ・Engineer; from Pakistan; was a nuclear weapons researcher in Pakistan
+ps01_cbt_afgh Cbt_Mujahid ・From Afghanistan; fought to defend this country ever since they invaded
+ps02_spt_afgh Spt_Saudi_Military ・From Saudi Arabia; supporting the Mujahideen; used to be in the military
+ps03_spy_afgh Spy_ISI ・From Pakistan; its own little intelligence agency
+ru00_med_cbt_afgh Med_Field ・Doctor; Field medic charged with aiding the enemy for treating a mujahid
+ru01_spy_afgh Spy_KGB_Agent ・KGB agent; Imprisoned for being a double agent for the CIA
+
+MAFR
+en00_spy Spy_CIA_Male ・CIA-related personnel
+en02_dev_mafr Dev_Weapons_Inspect ・Researcher; weapons; got kidnapped during an inspection in Angola
+en04_cbt_mafr Cbt_CongoVet ・Mercenary; longstanding merc; 20 years now - ever since the Congo Crisis
+en06_bdv_mafr Bdv_DrillPlant ・Resource developer; came here to design a drilling plant for a British oil and gas firm; inspecting the oilfields
+en07_spy Spy_CIA_Female ・CIA-related
+en08_med Med_Doctor_Locals ・Doctor; Came to help the locals, but got captured
+en09_spt Spt_NGO_Women ・NGO member; who came to give aid to local women
+en10_med Med_Botanist ・Researcher; Came to conduct research on medicinal plants
+af00_cbt_mafr Cbt_Mercenary_SAS ・Mercenary; used to be in the Rhodesian SAS
+af01_bdv_mafr Bdv_Resource_SA ・Resource developer; headed design of large-scale plants for a South African construction company; take on an Angolan oil refinery project
+af02_spt_mafr Spt_UN_NGO_Boys ・NGO worker; work for a UN NGO; conducting a survey of the child soldiers; ran projects for the UNDP
+af03_med_mafr Med_Field ・Doctor; used to be an army field surgeon
+kg00_cbt_spt_mafr Spt_Minor_PF ・Mercenary; worked for a PF too, but... just a minor one 
+kg01_bdv_mafr Bdv_MineEngineer ・Mining engineer; from Zaire; once in charge of a mining team at Shinkolobwe

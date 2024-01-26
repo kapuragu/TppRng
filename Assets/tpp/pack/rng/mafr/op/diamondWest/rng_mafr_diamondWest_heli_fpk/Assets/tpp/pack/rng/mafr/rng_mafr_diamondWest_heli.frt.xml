@@ -1,0 +1,1087 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<routeSet>
+  <route id="lz_drp_diamondWest_S0000|lz_drp_diamondWest_S_0000">
+    <node x="1280.063" y="60.93322" z="-437.6335">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1255.146" y="60.00735" z="-444.0161">
+      <event type="Normal">
+        <param0 type="int32">1024</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">55</param2>
+        <param3 type="int32">5</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1230.635" y="60.00735" z="-451.304">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1206.125" y="60.00735" z="-460.6224">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1157.104" y="60.00735" z="-481.2232">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1122.459" y="60.00735" z="-503.5689">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1087.814" y="60.00735" z="-530.952">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1061.138" y="60.00735" z="-560.3002">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1040.144" y="60.00735" z="-589.6486">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1024.45" y="60.00735" z="-618.5636">
+      <event type="Normal">
+        <param0 type="int32">266</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1017.624" y="60.00735" z="-633.6708">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1011.274" y="60.00735" z="-648.3449">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1006.615" y="60.00735" z="-661.3416">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1001.955" y="60.00735" z="-674.3383">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="997.2958" y="60.00735" z="-687.3348">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="992.6365" y="60.00735" z="-700.3314">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="987.9772" y="60.00735" z="-713.3281">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="983.3178" y="60.00735" z="-726.3247">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="978.6585" y="60.00735" z="-739.3214">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="973.9991" y="60.00735" z="-752.318">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="969.5339" y="60.00735" z="-765.2072">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="965.0685" y="60.00735" z="-778.0963">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="960.6033" y="60.00735" z="-790.9855">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="956.1379" y="60.00735" z="-803.8747">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="951.6967" y="60.00735" z="-816.7638">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="947.2553" y="60.00735" z="-829.653">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="943.386" y="60.00735" z="-842.5422">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="939.5168" y="60.00735" z="-855.4313">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="938.1783" y="59.00735" z="-859.9476">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="936.8399" y="58.00735" z="-864.464">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="935.5015" y="57.00735" z="-868.9803">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="934.1631" y="56.00735" z="-873.4966">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="933.0585" y="55.00735" z="-878.0129">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="931.954" y="54.00735" z="-882.5292">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="930.9008" y="53.00735" z="-887.0455">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="929.8854" y="52.00735" z="-891.5618">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="929.1349" y="51.00735" z="-896.0781">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="928.4527" y="50.00735" z="-900.5944">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="927.6611" y="49.00735" z="-905.1108">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="926.9152" y="48.00735" z="-909.6271">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="926.257" y="47.00735" z="-914.1434">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="925.5687" y="46.00735" z="-918.6597">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="925.0063" y="45.00735" z="-923.176">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="924.7173" y="44.00735" z="-927.6923">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="924.7173" y="44.00735" z="-931.2805">
+      <event type="PermitGettingOff">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="DropPoint" loop="False" time="59" dir="-32768">
+          <param0 type="int32">0</param0>
+          <param1 type="uint32">0</param1>
+          <param2 type="uint32">0</param2>
+          <param3 type="uint32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="933" y="60" z="-949">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="951" y="79.00735" z="-945">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="980" y="99.00735" z="-922">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="992" y="119.0074" z="-791">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1149" y="139.0074" z="-602.5">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1326" y="159.0074" z="-442">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1605.5" y="179.0074" z="-501">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="1885" y="239.0074" z="-664.5">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="2255" y="339.0074" z="-1211">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="3601" y="439.0074" z="-1808">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="lz_diamondWest_S0000|rt_apr_diamondWest_S_0000">
+    <node x="50.6158" y="469.7441" z="-1737.972">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="263.3643" y="362.0074" z="-1659.908">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="351.4955" y="352.0074" z="-1606.15">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="430.5547" y="342.0074" z="-1539.877">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="498.5801" y="329.9337" z="-1471.987">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="555.1432" y="315.1482" z="-1410.866">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="598.8612" y="304.4288" z="-1363.258">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="632.4174" y="289.4238" z="-1328.846">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="649.2935" y="275.813" z="-1316.158">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="660.1033" y="261.9724" z="-1300.864">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="665.113" y="255.5396" z="-1295.341">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="669.9432" y="250.4916" z="-1289.253">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="675.3879" y="245.1222" z="-1283.127">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="680.2177" y="242.0074" z="-1276.87">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="693.001" y="232.0074" z="-1262.767">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="705.8015" y="222.0074" z="-1247.456">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="718.6509" y="212.0074" z="-1232.414">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="732.5088" y="202.0074" z="-1216.992">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="745.3026" y="192.0074" z="-1203.129">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="759.8893" y="182.0074" z="-1188.433">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="775.106" y="172.0074" z="-1174.101">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="790.5632" y="162.0074" z="-1159.908">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="806.4146" y="152.0074" z="-1145.943">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="822.2267" y="142.0074" z="-1131.669">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="837.1505" y="132.0074" z="-1116.882">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="851.7563" y="122.0074" z="-1101.912">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="864.7893" y="112.0074" z="-1086.033">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="878.0439" y="102.0074" z="-1068.111">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="889.6917" y="92.00735" z="-1049.26">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="906.4407" y="82.00735" z="-1030.907">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="916.9598" y="79.00735" z="-1015.022">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="922.3432" y="76.00735" z="-1003.781">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="927.55" y="73.00735" z="-989.9306">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="929.471" y="70.00735" z="-981.4611">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="929.9365" y="67.00735" z="-972.4578">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="929.8035" y="64.00735" z="-963.4546">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="929.4774" y="61.00735" z="-957.7699">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="928.7018" y="58.00735" z="-952.0852">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="926.7404" y="55.00735" z="-941.6829">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="924.7173" y="52.00735" z="-931.2805">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="lz_diamondWest_S0000|rt_rtn_diamondWest_S_0000">
+    <node x="924.7173" y="44.00735" z="-931.2805">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="883.6271" y="57.00735" z="-829.9408">
+      <event type="Normal">
+        <param0 type="int32">1024</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">55</param2>
+        <param3 type="int32">5</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="877.3348" y="57.00735" z="-817.2734">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="869.8846" y="57.00735" z="-804.6059">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="860.8746" y="57.00735" z="-791.9385">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="850.3176" y="57.00735" z="-779.271">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="839.4161" y="57.00735" z="-768.3217">
+      <event type="Normal">
+        <param0 type="int32">5</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="829.4332" y="57.00735" z="-759.7859">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="818.0187" y="57.00735" z="-751.6642">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="805.0699" y="57.00735" z="-744.4211">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="791.4723" y="57.00735" z="-738.361">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="775.0768" y="57.00735" z="-733.1936">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="758.6813" y="57.00735" z="-730.9426">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="737.9486" y="57.00735" z="-729.0051">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="710.8903" y="57.00735" z="-726.1494">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="657.7268" y="57.00735" z="-724.7927">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="36.56311" y="241.7978" z="-863.7699">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="-70.54016" y="288.9017" z="-905.938">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="-177.6434" y="336.0056" z="-948.1061">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="-229.6509" y="341.8935" z="-1020.223">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="-273.4446" y="347.7815" z="-1092.339">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="-328.2313" y="359.5575" z="-1236.572">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="-405.295" y="383.1094" z="-1525.037">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="-544.5973" y="430.2133" z="-2101.969">
+      <event type="None">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+</routeSet>

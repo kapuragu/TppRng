@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0" originalVersion="Sat Jan 13 17:26:29 UTC+07:00 2024">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="GameObjectLocator" super="" version="2" />
+    <class name="TransformEntity" super="" version="0" />
+    <class name="TppSoldier2LocatorParameter" super="" version="0" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x109FE2B0" unknown1="232" unknown2="46849402">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="11">
+          <value key="sol_village_mis_0000">0x12779770</value>
+          <value key="sol_village_mis_0001">0x127799A0</value>
+          <value key="sol_village_mis_0002">0x12779BD0</value>
+          <value key="sol_village_mis_0003">0x12779E00</value>
+          <value key="sol_village_mis_0004">0x1277A030</value>
+          <value key="sol_village_mis_0005">0x1277A260</value>
+          <value key="sol_village_mis_0006">0x1277A490</value>
+          <value key="sol_village_mis_0007">0x12FF7400</value>
+          <value key="TexturePackLoadConditioner0000">0x0FBBF120</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x12779770" unknown1="272" unknown2="46851058">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>sol_village_mis_0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x127797E0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppSoldier2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12779930</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x127797E0" unknown1="80" unknown2="46851061">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12779770</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.193202" z="0" w="0.981159" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="509.052368" y="320.837952" z="1195.017" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppSoldier2LocatorParameter" classVersion="0" addr="0x12779930" unknown1="32" unknown2="46851067">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12779770</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x127799A0" unknown1="272" unknown2="46851069">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>sol_village_mis_0001</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12779A10</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppSoldier2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12779B60</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x12779A10" unknown1="80" unknown2="46851072">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x127799A0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.193202" z="0" w="0.981159" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="508.817719" y="320.403442" z="1177.7749" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppSoldier2LocatorParameter" classVersion="0" addr="0x12779B60" unknown1="32" unknown2="46851078">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x127799A0</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x12779BD0" unknown1="272" unknown2="46851080">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>sol_village_mis_0002</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12779C40</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppSoldier2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12779D90</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x12779C40" unknown1="80" unknown2="46851083">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12779BD0</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.193202" z="0" w="0.981159" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="588.7987" y="319.700928" z="1176.28271" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppSoldier2LocatorParameter" classVersion="0" addr="0x12779D90" unknown1="32" unknown2="46851089">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12779BD0</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x12779E00" unknown1="272" unknown2="46851091">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>sol_village_mis_0003</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12779E70</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppSoldier2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12779FC0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x12779E70" unknown1="80" unknown2="46851094">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12779E00</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.193202" z="0" w="0.981159" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="589.010864" y="318.972565" z="1162.99146" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppSoldier2LocatorParameter" classVersion="0" addr="0x12779FC0" unknown1="32" unknown2="46851100">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12779E00</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x1277A030" unknown1="272" unknown2="46851102">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>sol_village_mis_0004</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x1277A0A0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppSoldier2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x1277A1F0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x1277A0A0" unknown1="80" unknown2="46851105">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x1277A030</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.193202" z="0" w="0.981159" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="531.484" y="320.4442" z="1226.11743" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppSoldier2LocatorParameter" classVersion="0" addr="0x1277A1F0" unknown1="32" unknown2="46851111">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x1277A030</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x1277A260" unknown1="272" unknown2="46851113">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>sol_village_mis_0005</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x1277A2D0</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppSoldier2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x1277A420</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x1277A2D0" unknown1="80" unknown2="46851116">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x1277A260</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.193202" z="0" w="0.981159" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="473.635254" y="320.282043" z="1224.41479" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppSoldier2LocatorParameter" classVersion="0" addr="0x1277A420" unknown1="32" unknown2="46851122">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x1277A260</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x1277A490" unknown1="272" unknown2="46851124">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>sol_village_mis_0006</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x1277A500</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppSoldier2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x1277A650</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x1277A500" unknown1="80" unknown2="46851127">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x1277A490</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.193202" z="0" w="0.981159" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="457.41275" y="320.775818" z="1156.11084" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppSoldier2LocatorParameter" classVersion="0" addr="0x1277A650" unknown1="32" unknown2="46851133">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x1277A490</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObjectLocator" classVersion="2" addr="0x12FF7400" unknown1="272" unknown2="46852218">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>sol_village_mis_0007</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12FF7470</value>
+        </property>
+        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="children" type="EntityHandle" container="List" />
+        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
+          <value>7</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppSoldier2</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x12FF75C0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TransformEntity" classVersion="0" addr="0x12FF7470" unknown1="80" unknown2="46852221">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12FF7400</value>
+        </property>
+        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="1" y="1" z="1" w="0" />
+        </property>
+        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
+          <value x="0" y="-0.193202" z="0" w="0.981159" />
+        </property>
+        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
+          <value x="457.41275" y="320.775818" z="1156.11084" w="0" />
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppSoldier2LocatorParameter" classVersion="0" addr="0x12FF75C0" unknown1="32" unknown2="46852227">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12FF7400</value>
+        </property>
+        <property name="identifier" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x0FBBF120" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x109FE2B0</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

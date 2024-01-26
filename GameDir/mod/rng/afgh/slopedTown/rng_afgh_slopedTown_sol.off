@@ -1,0 +1,24 @@
+local this={}
+
+this.name="slopedTown_sol"
+
+this.needDefault=true
+
+this.packs={
+    "/Assets/tpp/pack/rng/afgh/op/slopedTown/rng_afgh_slopedTown_sol.fpk",
+}
+
+this.soldierDefine={
+    afgh_slopedTown_cp={
+		"sol_slopedTown_mis_0000",
+		"sol_slopedTown_mis_0001",
+		"sol_slopedTown_mis_0002",
+		"sol_slopedTown_mis_0003",
+		"sol_slopedTown_mis_0004",
+		"sol_slopedTown_mis_0005",
+		"sol_slopedTown_mis_0006",
+		"sol_slopedTown_mis_0007",
+    },
+}
+
+return this

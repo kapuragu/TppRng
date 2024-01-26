@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trap dataSet="/Assets/tpp/level/rng/afgh/rng_afgh">
+  <entry name="innerZone" type="27">
+    <tags>
+      <tag tagId="12" />
+      <tag tagId="25" />
+    </tags>
+    <shape yMinimum="-101.0809" yMaximum="1683.714">
+      <points>
+        <point x="-2816" y="18.50031" z="640" w="0" />
+        <point x="-512" y="-101.0809" z="2816" w="0" />
+        <point x="1920" y="-1.937195" z="2816" w="0" />
+        <point x="1920" y="21.17682" z="640" w="0" />
+        <point x="2560" y="93.12033" z="0" w="0" />
+        <point x="2560" y="146.7015" z="-2048" w="0" />
+        <point x="-768" y="260.9378" z="-2048" w="0" />
+        <point x="-768" y="283.7137" z="-3456" w="0" />
+        <point x="-2816" y="165.4294" z="-3456" w="0" />
+      </points>
+    </shape>
+  </entry>
+  <entry name="outerZone" type="27">
+    <tags>
+      <tag tagId="13" />
+      <tag tagId="25" />
+    </tags>
+    <shape yMinimum="-101.0809" yMaximum="1683.714">
+      <points>
+        <point x="-2944" y="18.50031" z="768" w="0" />
+        <point x="-640" y="-101.0809" z="2944" w="0" />
+        <point x="2048" y="-1.937195" z="2944" w="0" />
+        <point x="2048" y="21.17682" z="768" w="0" />
+        <point x="2688" y="93.12033" z="128" w="0" />
+        <point x="2688" y="146.7015" z="-2176" w="0" />
+        <point x="-640" y="260.9378" z="-2176" w="0" />
+        <point x="-640" y="283.7137" z="-3584" w="0" />
+        <point x="-2944" y="165.4294" z="-3584" w="0" />
+      </points>
+    </shape>
+  </entry>
+  <entry name="hotZone" type="27">
+    <tags>
+      <tag tagId="14" />
+      <tag tagId="25" />
+    </tags>
+    <shape yMinimum="-101.0809" yMaximum="1683.714">
+      <points>
+        <point x="-2944" y="18.50031" z="768" w="0" />
+        <point x="-640" y="-101.0809" z="2944" w="0" />
+        <point x="2048" y="-1.937195" z="2944" w="0" />
+        <point x="2048" y="21.17682" z="768" w="0" />
+        <point x="2688" y="93.12033" z="128" w="0" />
+        <point x="2688" y="146.7015" z="-2176" w="0" />
+        <point x="-640" y="260.9378" z="-2176" w="0" />
+        <point x="-640" y="283.7137" z="-3584" w="0" />
+        <point x="-2944" y="165.4294" z="-3584" w="0" />
+      </points>
+    </shape>
+  </entry>
+</trap>

@@ -1,0 +1,1474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<routeSet>
+  <route id="242842342">
+    <node x="899.2915" y="318.6144" z="-145.1666">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-4061">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="890.6349" y="319.4605" z="-156.5177">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="28706">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="495227583">
+    <node x="994.2696" y="319.2018" z="-125.3661">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-4061">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="1008.367" y="321.6942" z="-136.4312">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="28706">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="638655521">
+    <node x="1020.893" y="330.0739" z="-238.9784">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-23176">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="1023.273" y="326.8247" z="-221.1556">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="9591">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="771271731">
+    <node x="1002.742" y="321.1452" z="-112.5507">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-4061">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="1013.617" y="321.4622" z="-122.7513">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="28706">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="1672824922">
+    <node x="989.8695" y="325.2591" z="-222.5829">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-23176">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="1004.677" y="323.6799" z="-206.2929">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="9591">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="2372537854">
+    <node x="904.0494" y="324.5048" z="-134.2328">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-4061">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="894.9313" y="318.4123" z="-150.5363">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="28706">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="890.0109" y="322.6005" z="-163.1095">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="884.5876" y="326.0037" z="-176.4303">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-28735">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="885.1407" y="323.1965" z="-163.7143">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="890.444" y="318.3211" z="-144.0687">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="2639425074">
+    <node x="994.2696" y="319.2018" z="-125.3661">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-4061">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="1008.367" y="321.6942" z="-136.4312">
+      <event type="Move">
+        <param0 type="int32">500</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="28706">
+          <param0 type="int32">1</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="2745962021">
+    <node x="971.4545" y="318.5178" z="-142.5752">
+      <event type="Move">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="-10464">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="984.0033" y="317.7076" z="-150.5749">
+      <event type="Move">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="Wait" loop="False" time="179" dir="22303">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="3194102662">
+    <node x="971.4545" y="318.5178" z="-142.5752">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="984.0033" y="317.7076" z="-150.5749">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="rt_slopedEast_lin_W">
+    <node x="976.9436" y="317.7805" z="-143.4102">
+      <event type="VehicleMoveNormal">
+        <param0 type="String">1424854063</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="972.91" y="317.5659" z="-147.6936">
+      <event type="VehicleMoveSlow">
+        <param0 type="String">1424854063</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="969.1844" y="317.3863" z="-150.62">
+      <event type="VehicleMoveSlow">
+        <param0 type="String">1424854063</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="964.7983" y="317.2699" z="-153.5169">
+      <event type="VehicleMoveSlow">
+        <param0 type="String">1424854063</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="964.895" y="317.1539" z="-160.6924">
+      <event type="VehicleMoveSlow">
+        <param0 type="String">1424854063</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="965.8318" y="317.1539" z="-168.8857">
+      <event type="VehicleMoveSlow">
+        <param0 type="String">1424854063</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="rt_slopedEast_lout_N">
+    <node x="965.7756" y="317.1539" z="-170.0559">
+      <event type="VehicleMoveSlow">
+        <param0 type="String">4291781947</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="966.357" y="317.8217" z="-182.4422">
+      <event type="VehicleMoveSlow">
+        <param0 type="String">4291781947</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="973.4702" y="319.1701" z="-190.1534">
+      <event type="VehicleMoveNormal">
+        <param0 type="String">4291781947</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="976.1496" y="320.3342" z="-202.5033">
+      <event type="VehicleMoveNormal">
+        <param0 type="String">4291781947</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="983.8632" y="321.9088" z="-211.3872">
+      <event type="VehicleMoveNormal">
+        <param0 type="String">4291781947</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="989.3836" y="322.8286" z="-215.1866">
+      <event type="VehicleMoveNormal">
+        <param0 type="String">4291781947</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="uint32">0</param2>
+        <param3 type="uint32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="rt_slopedEast_r_0000">
+    <node x="952.1718" y="317.4132" z="-179.3456">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="479" dir="0">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopedEast_r_0001">
+    <node x="981.8898" y="318.1665" z="-175.2917">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="479" dir="-30251">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_c_0000">
+    <node x="936.9913" y="328.1225" z="-190.7841">
+      <event type="CautionWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="SwitchRoute" loop="False" time="479" dir="19114">
+          <param0 type="String">rt_slopeEast_c_0000_sub</param0>
+          <param1 type="String">IsGimmickBroken</param1>
+          <param2 type="String">851230697</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="936.9914" y="328.1225" z="-190.7841">
+      <event type="CautionWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdleAim" loop="False" time="1918" dir="-12014">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>2372537854</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="CautionStandIdleAim" loop="False" time="1918" dir="6504">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>2745962021</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_c_0000_sub">
+    <node x="942.7003" y="322.0435" z="-189.4565">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="SwitchRoute" loop="False" time="479" dir="-21845">
+          <param0 type="String">rt_slopeEast_c_0000</param0>
+          <param1 type="String">IsNotGimmickBroken</param1>
+          <param2 type="String">851230697</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="CautionStandIdleSearch" loop="False" time="959" dir="-8471">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="CautionStandIdleSearch" loop="False" time="959" dir="6864">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_c_0001">
+    <node x="984.4084" y="318.0759" z="-157.4718">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdleAim" loop="False" time="1918" dir="1131">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>771271731</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_c_0002">
+    <node x="987.5799" y="320.8255" z="-191.7443">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdleAim" loop="False" time="1918" dir="26760">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>638655521</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="CautionStandIdle" loop="False" time="479" dir="27686">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_c_0003">
+    <node x="930.2943" y="317.3892" z="-174.6409">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdleSearch" loop="False" time="479" dir="-12557">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="934.6851" y="317.4132" z="-179.9785">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="943.6772" y="317.4132" z="-185.2077">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="954.5374" y="318.0078" z="-190.9465">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="961.2384" y="318.5708" z="-192.307">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdleSearch" loop="False" time="479" dir="25253">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="963.3942" y="317.9784" z="-185.4567">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="962.3945" y="317.3448" z="-177.0317">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="959.9154" y="317.1535" z="-168.4696">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdleSearch" loop="False" time="479" dir="6738">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="952.3367" y="317.0297" z="-166.965">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="943.8788" y="317.1916" z="-169.3693">
+      <event type="CautionWalkSearch">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="rt_slopeEast_c_0004">
+    <node x="974.5452" y="317.6135" z="-143.8902">
+      <event type="CautionWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdleSearch" loop="False" time="719" dir="8581">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="CautionStandIdleSearch" loop="False" time="719" dir="11081">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_c_0005">
+    <node x="924.8146" y="317.5053" z="-160.7163">
+      <event type="CautionWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="CautionStandIdle" loop="False" time="719" dir="-9609">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="CautionStandIdle" loop="False" time="719" dir="-14727">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_d_0000">
+    <node x="987.5798" y="320.8255" z="-191.7443">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="26760">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>1672824922</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_d_0001">
+    <node x="936.9913" y="328.1225" z="-190.7841">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="SwitchRoute" loop="False" time="479" dir="19114">
+          <param0 type="String">rt_slopeEast_d_0001_sub</param0>
+          <param1 type="String">IsGimmickBroken</param1>
+          <param2 type="String">851230697</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="936.9914" y="328.1225" z="-190.7841">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedStandIdle" loop="False" time="959" dir="-12014">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>242842342</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="RelaxedStandIdle" loop="False" time="959" dir="6504">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>3194102662</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_d_0001_sub">
+    <node x="942.2375" y="322.4328" z="-194.3214">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="SwitchRoute" loop="False" time="59" dir="17322">
+          <param0 type="String">rt_slopeEast_d_0001</param0>
+          <param1 type="String">IsNotGimmickBroken</param1>
+          <param2 type="String">851230697</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="17322">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="942.2375" y="322.4328" z="-194.3214">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="-518">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_d_0002">
+    <node x="939.6859" y="317.4132" z="-176.8216">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="-12175">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="RelaxedIdleAct" loop="False" time="479" dir="-6898">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="939.6859" y="317.4132" z="-176.8216">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="942.4451" y="317.3578" z="-172.9665">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="946.636" y="317.3995" z="-173.0222">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="955.7012" y="317.4067" z="-174.4856">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="6623">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="957.1503" y="317.4132" z="-177.8676">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="954.4408" y="317.4132" z="-182.1201">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1918" dir="-26850">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_d_0003">
+    <node x="984.6787" y="318.3308" z="-158.1476">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedStandIdle" loop="False" time="1918" dir="-197">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>2639425074</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="978.2777" y="318.4247" z="-160.9879">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="976.7128" y="318.3556" z="-166.9985">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="977.5288" y="318.4247" z="-177.3674">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="981.2432" y="318.4995" z="-179.7741">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedStandIdle" loop="False" time="239" dir="27689">
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="985.3225" y="318.4241" z="-174.528">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="984.8879" y="318.4247" z="-169.2203">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1918" dir="-9463">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_d_0004">
+    <node x="965.7546" y="318.9123" z="-193.3839">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1918" dir="23222">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="968.1905" y="318.4503" z="-187.3026">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="967.1072" y="317.8765" z="-182.8297">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="964.1437" y="317.3308" z="-181.044">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="959.9272" y="317.1631" z="-180.6588">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="958.4952" y="317.1631" z="-184.8123">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="3836" dir="-14943">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="962.2316" y="317.5713" z="-186.5412">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="rt_slopeEast_d_0005">
+    <node x="974.5995" y="317.9401" z="-142.881">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="9743">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_l_0000">
+    <node x="949.768" y="316.8821" z="-170.5825">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1918" dir="-24924">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_l_0001">
+    <node x="947.1539" y="316.949" z="-170.5869">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1918" dir="26262">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_n_0000">
+    <node x="940.1491" y="317.1706" z="-176.9264">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="True" time="959" dir="-13949">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="-8199">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_n_0001">
+    <node x="954.7848" y="317.0802" z="-173.425">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1918" dir="5668">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="959.7037" y="317.4132" z="-178.6951">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="959.0018" y="317.4132" z="-184.1808">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="24735">
+          <param0 type="String">StandActNormal</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="955.5026" y="317.4132" z="-181.1063">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="956.6507" y="317.4132" z="-177.6476">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="952.1826" y="317.4132" z="-174.1555">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1918" dir="-9464">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_n_0002">
+    <node x="978.4352" y="318.1747" z="-160.6885">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedStandIdle" loop="False" time="1918" dir="-1274">
+          <routeAsSightMovePath>
+            <routeAsSightMovePath0>495227583</routeAsSightMovePath0>
+            <routeAsSightMovePath1>3205930904</routeAsSightMovePath1>
+            <routeAsSightMovePath2>3205930904</routeAsSightMovePath2>
+            <routeAsSightMovePath3>3205930904</routeAsSightMovePath3>
+          </routeAsSightMovePath>
+          <param0 type="int32">0</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_n_0003">
+    <node x="984.2766" y="318.1747" z="-177.7738">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="988.986" y="318.9889" z="-180.2873">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="-32585">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="990.1258" y="318.4319" z="-162.1799">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+    <node x="988.2422" y="318.7071" z="-157.4474">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="959" dir="487">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+    <node x="984.494" y="318.4268" z="-159.3926">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents />
+    </node>
+  </route>
+  <route id="rt_slopeEast_n_0004">
+    <node x="946.6706" y="317.1675" z="-178.552">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="True" time="479" dir="-4079">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_n_0005">
+    <node x="962.8532" y="318.2749" z="-190.618">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="False" time="1918" dir="25850">
+          <param0 type="String">StandActWalkAround</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_s_0000">
+    <node x="981.9752" y="318.1747" z="-164.7301">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="True" time="21578" dir="-501">
+          <param0 type="String">911690047</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+  <route id="rt_slopeEast_s_0001">
+    <node x="948.0391" y="317.1888" z="-174.754">
+      <event type="RelaxedWalk">
+        <param0 type="int32">0</param0>
+        <param1 type="int32">0</param1>
+        <param2 type="int32">0</param2>
+        <param3 type="int32">0</param3>
+      </event>
+      <nodeEvents>
+        <event type="RelaxedIdleAct" loop="True" time="21578" dir="534">
+          <param0 type="String">StandActSmoking</param0>
+          <param1 type="int32">0</param1>
+          <param2 type="int32">0</param2>
+          <param3 type="int32">0</param3>
+        </event>
+      </nodeEvents>
+    </node>
+  </route>
+</routeSet>

@@ -1,0 +1,265 @@
+--RngBaseHostageModule.lua
+local this={}
+local GetGameObjectId=GameObject.GetGameObjectId
+local SendCommand=GameObject.SendCommand
+local IsTypeTable=Tpp.IsTypeTable
+local MergeTable=Tpp.MergeTable
+local IsTypeFunc=Tpp.IsTypeFunc
+local StrCode32=Fox.StrCode32
+local StrCode32Table=Tpp.StrCode32Table
+
+function this.CreateInstance(moduleTable)
+    if not IsTypeTable(moduleTable.targetList) then
+        moduleTable.targetList={moduleTable.targetList}
+    end
+    moduleTable.hostageDefine=moduleTable.targetList
+    moduleTable.registHoldRecoveredState=moduleTable.targetList
+    --moduleTable.deadGameOverLocators=moduleTable.targetList
+
+    if moduleTable.SetUpUniqueTable then
+        for gameObjectName, uniqueTable in pairs(moduleTable.SetUpUniqueTable) do
+            if uniqueTable.langType then
+                table.insert(moduleTable.SetUpUniqueTable[gameObjectName].commands,{id="SetLangType",langType=uniqueTable.langType})
+            end
+        end
+        moduleTable.uniqueSettings=function()
+            return RngFova.GetUniqueSetting(moduleTable.SetUpUniqueTable)
+        end
+        moduleTable.SetUpEnemy=function()
+            RngEnemy.SetUpUnique(moduleTable.SetUpUniqueTable)
+        end
+    end
+
+    moduleTable.systemCallbackTable=moduleTable.systemCallbackTable or{}
+
+    local baseOnGameOver=function()
+        if moduleTable.deadGameOverLocators then
+            return RngHostage.SystemCallbackOnGameOver(moduleTable.deadGameOverLocators)
+        end
+    end
+    if moduleTable.systemCallbackTable.OnGameOver then
+        moduleTable.BaseOnGameOver=baseOnGameOver
+    else
+        moduleTable.systemCallbackTable.OnGameOver=baseOnGameOver
+    end
+
+    local saveVarsList={}
+
+    if moduleTable.interInfo then
+        moduleTable.DisableInterFuncs=moduleTable.DisableInterFuncs or{}
+        moduleTable.OnInterFuncs=moduleTable.OnInterFuncs or{}
+        moduleTable.EnableHighInterFuncs=moduleTable.EnableHighInterFuncs or{}
+        moduleTable.interrogation=moduleTable.interrogation or{}
+        for targetName, interTable in pairs(moduleTable.interInfo) do
+            if interTable.name then
+                local interInfo={
+                    name=interTable.name,
+                    func=function(...)
+                        if moduleTable.DisableInterFuncs then
+                            if moduleTable.DisableInterFuncs[targetName] then
+                                moduleTable.DisableInterFuncs[targetName](...)
+                            end
+                        end
+                        if moduleTable.OnInterFuncs[targetName] then
+                            moduleTable.OnInterFuncs[targetName](...)
+                        end
+                        if interTable.markerName then
+                            RngMission.EnableMarker(interTable.markerName,interTable)
+                        end
+                        if interTable.objective then
+                            if not IsTypeTable(interTable.objective) then
+                                interTable.objective={interTable.objective}
+                            end
+                            TppMission.UpdateObjective{objectives=interTable.objective}
+                        end
+                    end,
+                }
+                local saveVarName=string.format("%s_inter",targetName)
+                moduleTable.DisableInterFuncs[targetName]=function(...)
+                    if Tpp.IsHostage(GetGameObjectId(targetName)) then
+                        local markerEnabled=SendCommand(GetGameObjectId(targetName),{id="GetMarkerEnabled"})
+                        if markerEnabled then
+                            svars[saveVarName]=true
+                            RngInter.RemoveInterrogation({interInfo})
+                        end
+                    end
+                    if svars[saveVarName]==false then
+                        svars[saveVarName]=true
+                        RngInter.RemoveInterrogation({interInfo})
+                    end
+                end
+                moduleTable.EnableHighInterFuncs[targetName]=function(soldier2GameObjectId, cpID, interName)
+                    if svars[saveVarName]==false then
+                        RngInter.AddHighInterrogations({interInfo})
+                    end
+                end
+                saveVarsList[saveVarName]=false
+                if interTable.highCp then
+                    if not IsTypeTable(interTable.highCp) then
+                        interTable.highCp={interTable.highCp}
+                    end
+                    for index, cpName in ipairs(interTable.highCp) do
+                        moduleTable.interrogation[cpName]=moduleTable.interrogation[cpName] or{high={},normal={}}
+                        table.insert(moduleTable.interrogation[cpName].high,interInfo)
+                    end
+                end
+                if interTable.normalCp then
+                    if not IsTypeTable(interTable.normalCp) then
+                        interTable.normalCp={interTable.normalCp}
+                    end
+                    for index, cpName in ipairs(interTable.normalCp) do
+                        moduleTable.interrogation[cpName]=moduleTable.interrogation[cpName] or{high={},normal={}}
+                        table.insert(moduleTable.interrogation[cpName].normal,interInfo)
+                    end
+                end
+            end
+        end
+    end
+
+    local onBaseRestoreSVars=function()
+        if moduleTable.EnableHighInterFuncs then
+            for targetName, func in pairs(moduleTable.EnableHighInterFuncs) do
+                if IsTypeFunc(func) then
+                    func()
+                end
+            end
+        end
+    end
+    if moduleTable.OnRestoreSVars then
+        moduleTable.OnBaseRestoreSVars=onBaseRestoreSVars
+    else
+        moduleTable.OnRestoreSVars=onBaseRestoreSVars
+    end
+
+    local disableInterFuncs
+    if moduleTable.DisableInterFuncs then
+        disableInterFuncs=function(gameObjectId)
+            for targetName, disableInterFunc in pairs(moduleTable.DisableInterFuncs) do
+                if gameObjectId==GetGameObjectId(targetName) then
+                    disableInterFunc()
+                    return
+                end
+            end
+        end
+    end
+
+    local onSearchTarget = function(gameObjectId)
+        if moduleTable.setUpSearchTarget then
+            for i, searchTarget in ipairs(moduleTable.setUpSearchTarget) do
+                if gameObjectId==GetGameObjectId(searchTarget.gameObjectName) then
+                    if searchTarget.interRemove then
+                        local interRemove = searchTarget.interRemove
+                        if not IsTypeTable(interRemove) then
+                            interRemove={interRemove}
+                        end
+                        if moduleTable.DisableInterFuncs then
+                            for interName, disableInterFunc in pairs(moduleTable.DisableInterFuncs) do
+                                for j, interRemoveName in ipairs(interRemove) do
+                                    if interRemoveName==interName then
+                                        disableInterFunc()
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+
+    local baseOnRecovered=function(gameObjectId)
+        if disableInterFuncs then
+            disableInterFuncs(gameObjectId)
+        end
+        if moduleTable.clearObjectiveName then
+            if moduleTable.targetList then
+                local canClear=true
+                for index, targetName in ipairs(moduleTable.targetList) do
+                    if not TppEnemy.IsRecovered(targetName) then
+                        canClear=false
+                        break
+                    end
+                end
+                if canClear then
+                    local clearObjective=moduleTable.clearObjectiveName
+                    if not IsTypeTable(clearObjective) then
+                        clearObjective={clearObjective}
+                    end
+                    TppMission.UpdateObjective{objectives=clearObjective}
+                    RngMission.OnObjectiveClear()
+                end
+            end
+        end
+    end
+    if moduleTable.systemCallbackTable.OnRecovered then
+        moduleTable.BaseOnRecovered=baseOnRecovered
+    else
+        moduleTable.systemCallbackTable.OnRecovered=baseOnRecovered
+    end
+
+    local BaseMessages=function()
+        local messages={}
+        if disableInterFuncs then
+            local removeInterMessages={
+                Player={
+                    {
+                        msg="LookingTarget",
+                        func=function(messageName, gameObjectId)
+                            onSearchTarget(gameObjectId)
+                        end,
+                    },
+                },
+                Marker={
+                    {
+                        msg="ChangeToEnable",
+                        func=function(instanceName,makerType,gameObjectId,identificationCode)
+                            if identificationCode==StrCode32"Player"then
+                                disableInterFuncs(gameObjectId)
+                            end
+                        end,
+                    },
+                },
+                GameObject={
+                    {
+                        msg="Dead",
+                        func=function(gameObjectId,attackerId)
+                            disableInterFuncs(gameObjectId)
+                        end,
+                    },
+                    {
+                        msg="Fulton",
+                        func=function(gameObjectId,gimmickInstanceOrAnimalId,gimmickDataSet,stafforResourceId)
+                            disableInterFuncs(gameObjectId)
+                        end,
+                    },
+                    {
+                        msg="Carried",
+                        func=function(gameObjectId,carriedState)
+                            if carriedState==0 then
+                                onSearchTarget(gameObjectId)
+                            end
+                        end
+                    },
+                },
+            }
+            Rng.AppendMessages(messages,removeInterMessages)
+        end
+        if moduleTable.deadGameOverLocators then
+            Rng.AppendMessages(messages,RngHostage.RegisterOnDeadGameOverMessage(moduleTable.deadGameOverLocators))
+        end
+        return StrCode32Table(messages)
+    end
+
+    if moduleTable.Messages then
+        moduleTable.BaseMessages=BaseMessages
+    else
+        moduleTable.Messages=BaseMessages
+    end
+    
+    moduleTable.saveVarsList=moduleTable.saveVarsList or{}
+    moduleTable.saveVarsList=MergeTable(moduleTable.saveVarsList,saveVarsList)
+
+    return moduleTable
+end
+
+return this

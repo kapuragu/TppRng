@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fox formatVersion="2" fileVersion="0" originalVersion="Sun Dec 10 22:59:57 UTC+07:00 2023">
+  <classes>
+    <class name="Entity" super="" version="2" />
+    <class name="Data" super="Entity" version="2" />
+    <class name="DataSet" super="" version="0" />
+    <class name="GameObject" super="" version="2" />
+    <class name="TppEspionageRadioSystemParameter" super="" version="0" />
+    <class name="RadioData" super="" version="2" />
+    <class name="TexturePackLoadConditioner" super="" version="0" />
+  </classes>
+  <entities>
+    <entity class="DataSet" classVersion="0" addr="0x12771510" unknown1="232" unknown2="14467002">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x00000000</value>
+        </property>
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="5">
+          <value key="EspionageRadioSystem">0x12770EF0</value>
+          <value key="RadioData_comn1000">0x125B6910</value>
+          <value key="RadioData_comn8000">0x123D4CA0</value>
+          <value key="TexturePackLoadConditioner0000">0x07E6C3A0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="GameObject" classVersion="2" addr="0x12770EF0" unknown1="88" unknown2="14467004">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>EspionageRadioSystem</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12771510</value>
+        </property>
+        <property name="typeName" type="String" container="StaticArray" arraySize="1">
+          <value>TppEspionageRadioSystem</value>
+        </property>
+        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="totalCount" type="uint32" container="StaticArray" arraySize="1">
+          <value>50</value>
+        </property>
+        <property name="realizedCount" type="uint32" container="StaticArray" arraySize="1">
+          <value>0</value>
+        </property>
+        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
+          <value>0x127710B0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TppEspionageRadioSystemParameter" classVersion="0" addr="0x127710B0" unknown1="28" unknown2="14467006">
+      <staticProperties>
+        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12770EF0</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="RadioData" classVersion="2" addr="0x125B6910" unknown1="80" unknown2="14467008">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>RadioData_comn1000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12771510</value>
+        </property>
+        <property name="radioDataFile" type="FilePtr" container="DynamicArray" arraySize="1">
+          <value>/Assets/tpp/radio/RadioData_comn1000.rdf</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="RadioData" classVersion="2" addr="0x123D4CA0" unknown1="80" unknown2="14481593">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>RadioData_comn8000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12771510</value>
+        </property>
+        <property name="radioDataFile" type="FilePtr" container="DynamicArray" arraySize="1">
+          <value>/Assets/tpp/radio/RadioData_comn8000.rdf</value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+    <entity class="TexturePackLoadConditioner" classVersion="0" addr="0x07E6C3A0" unknown1="72" unknown2="0">
+      <staticProperties>
+        <property name="name" type="String" container="StaticArray" arraySize="1">
+          <value>TexturePackLoadConditioner0000</value>
+        </property>
+        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
+          <value>0x12771510</value>
+        </property>
+        <property name="texturePackPath" type="Path" container="StaticArray" arraySize="1">
+          <value></value>
+        </property>
+      </staticProperties>
+      <dynamicProperties />
+    </entity>
+  </entities>
+</fox>

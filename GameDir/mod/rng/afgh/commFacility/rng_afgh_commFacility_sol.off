@@ -1,0 +1,24 @@
+local this={}
+
+this.name="commFacility_sol"
+
+this.needDefault=true
+
+this.packs={
+    "/Assets/tpp/pack/rng/afgh/op/commFacility/rng_afgh_commFacility_sol.fpk",
+}
+
+this.soldierDefine={
+    afgh_commFacility_cp={
+		"sol_commFacility_mis_0000",
+		"sol_commFacility_mis_0001",
+		"sol_commFacility_mis_0002",
+		"sol_commFacility_mis_0003",
+		"sol_commFacility_mis_0004",
+		"sol_commFacility_mis_0005",
+		"sol_commFacility_mis_0006",
+		"sol_commFacility_mis_0007",
+    },
+}
+
+return this
