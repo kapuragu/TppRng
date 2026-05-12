@@ -1,0 +1,16 @@
+commfacility soldier
+bridge soldier
+remnants soldier
+powerplant soldier
+powerplant prisoner
+    hangar
+    comms room
+    sleep room
+waterway soldier
+tent soldier
+clifftown soldier
+waterwayeast prisoner
+    intel room
+factory soldier
+diamond soldier
+savannah soldier
